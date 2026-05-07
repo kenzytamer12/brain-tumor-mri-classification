@@ -1,0 +1,7 @@
+{
+    "Model": "CNN_From_Scratch",
+    "Accuracy": 0.695,
+    "Precision": 0.699,
+    "Recall": 0.695,
+    "F1 Score": 0.6735
+}

@@ -1,0 +1,42 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# Data (DO NOT UPLOAD)
+data/
+
+# Trained Models
+models/*.h5
+models/*.keras
+
+# Logs
+logs/
+
+# Results generated automatically
+results/*.png
+results/*.json
+results/*.csv
+results/*.txt
+
+# Streamlit cache
+.streamlit/
+
+# IDE Files
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
