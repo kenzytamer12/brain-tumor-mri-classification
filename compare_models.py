@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 RESULTS_DIR = "results"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
+print("Loading model results for comparison...")
 
 def load_json(path):
     if os.path.exists(path):
