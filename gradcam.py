@@ -7,6 +7,8 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.resnet50 import preprocess_input
 model = load_model("models/best_ResNet50_Transfer.h5")
 
+print("Grad-CAM model loaded successfully.")
+
 def get_img_array(img_path, size=(224, 224)):
     img = image.load_img(img_path, target_size=size)
     array = image.img_to_array(img)

@@ -104,10 +104,11 @@ def evaluate_model(model_name, model_path, test_gen, class_names):
 
     return results
 
+print("Starting model evaluation...")
 
 def main():
     all_results = []
-
+    print("Starting model evaluation...")
     # =========================
     # EVALUATE CNN ON TEST SET
     # =========================
