@@ -1,0 +1,7 @@
+{
+    "Model": "ResNet50_Transfer",
+    "Accuracy": 0.9431,
+    "Precision": 0.948,
+    "Recall": 0.9431,
+    "F1 Score": 0.9414
+}

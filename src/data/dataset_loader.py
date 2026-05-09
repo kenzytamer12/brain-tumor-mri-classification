@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 
-#checking
+
 def check_corrupted_images(folder):
     corrupted_images = []
 
