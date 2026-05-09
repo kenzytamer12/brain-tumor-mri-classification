@@ -80,7 +80,7 @@ def organize_dataset(source_dir="data/raw/brain_dataset"):
             print("Dataset is ready for training!")
         else:
             print(f"Found {total_corrupted} corrupted images.")
-            print("Please remove or replace corrupted images before training.")
+            print("Please remove or replace corrupted images before training the model.")
 
     else:
         print("Please download the dataset and place it correctly.")
