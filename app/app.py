@@ -87,7 +87,8 @@ st.title(" Brain Tumor MRI Classification")
 st.subheader("CNN From Scratch vs ResNet50 Transfer Learning")
 
 st.write(
-    "Upload one MRI image and the app will compare predictions from both models."
+    "Upload MRI image and the app will compare predictions from both models"
+    "."
 )
 
 
